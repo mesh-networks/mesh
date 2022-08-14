@@ -7,6 +7,7 @@ version = "0.0.1"
 anyhow = "1.0"
 tokio = "1.20"
 protobuf = { version = "3.1", features = ["with-bytes"] }
+bytes = "1.2"
 
 [build-dependencies]
 protobuf-codegen = { version = "3.1" }
